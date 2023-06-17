@@ -1,0 +1,61 @@
+body {
+  background-color: white;
+  overflow: hidden;
+}
+.container {
+  position: relative;
+  left: 180px;
+  top: 100px;
+}
+.red-half-circle {
+  background-color: #e43c2d;
+  border-radius: 0 150px 150px 0;
+  width: 80px;
+  height: 150px;
+}
+.blue-half-circle {
+  background-color: #4285f4;
+  border-radius: 0 150px 150px 0;
+  width: 80px;
+  height: 150px;
+  position: relative;
+  rotate: 90deg;
+  top: -35px;
+  left: 36px;
+}
+.green-half-circle {
+  background-color: #0f9d58;
+  border-radius: 0 150px 150px 0;
+  width: 80px;
+  height: 150px;
+  rotate: 180deg;
+  position: relative;
+  top: -150px;
+  left: -79px;
+}
+.yellow-half-circle {
+  background-color: #f4b400;
+  border-radius: 0 150px 150px 0;
+  width: 80px;
+  height: 150px;
+  rotate: 270deg;
+  position: relative;
+  top: -415px;
+  left: -115px;
+}
+.text-logo-one {
+  font-family: Century Gothic;
+  font-size: 80px;
+  position: relative;
+  bottom: 405px;
+  left: 350px;
+  color: rgb(78, 78, 78);
+}
+.text-logo-two {
+  font-family: Century Gothic;
+  font-size: 80px;
+  position: relative;
+  bottom: 500px;
+  left: 650px;
+  color: rgb(31, 31, 31);
+}
